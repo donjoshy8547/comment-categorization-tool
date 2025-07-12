@@ -1,5 +1,7 @@
 Project Report: Comment Categorization & Reply Assistant Tool
 
+Hosted URL: https://comment-categorization-tool-vdsxkqrdwpojcdsf59dvkn.streamlit.app/
+
 Objective
 
     The Comment Categorization & Reply Assistant Tool is designed to streamline the process of moderating and responding to user-generated comments on platforms such as social media, product pages, or forums. The tool leverages machine learning and natural language processing to automatically classify comments based on intent and sentiment, and to provide appropriate pre-formulated responses. This empowers brands and creative teams to manage feedback effectively and professionally.
