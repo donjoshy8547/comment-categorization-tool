@@ -1,0 +1,53 @@
+ Step-by-Step User Guide
+
+🛠️ Requirements
+Before running the tool, ensure you have:
+
+Python 3.9 or above installed
+
+Internet connection (for initial library downloads)
+
+Pretrained model files (model.pkl, vectorizer.pkl) already available in the models/ directory
+Run as a Streamlit Application (Python)
+
+✅ Step 1: Install Dependencies
+In your terminal or command prompt, navigate to the project folder and run:
+
+pip install -r requirements.txt
+This installs all necessary libraries including:
+
+streamlit
+
+scikit-learn
+
+transformers
+
+pandas, nltk, plotly, etc.
+
+✅ Step 2: Download NLTK Resources (One-Time Setup)
+Run the following in a Python shell or script:
+
+
+import nltk
+nltk.download('stopwords')
+nltk.download('wordnet')
+nltk.download('omw-1.4')
+
+This enables text preprocessing functions like stopword removal and lemmatization.
+
+✅ Step 3: Launch the App
+Run this command:
+
+
+streamlit run app.py
+
+This opens the app in your default web browser.
+
+You can now:
+
+Paste individual comments or upload a CSV(sample comments file on folder /data --all category upto 65 each)
+
+View category predictions and auto-generated replies
+
+See a visual breakdown of comment categories
+
