@@ -16,38 +16,21 @@ In your terminal or command prompt, navigate to the project folder and run:
 pip install -r requirements.txt
 This installs all necessary libraries including:
 
-streamlit
+streamlit, scikit-learn, transformers, pandas, nltk, plotly, etc.
 
-scikit-learn
-
-transformers
-
-pandas, nltk, plotly, etc.
-
-✅ Step 2: Download NLTK Resources (One-Time Setup)
-Run the following in a Python shell or script:
-
-
-import nltk
-nltk.download('stopwords')
-nltk.download('wordnet')
-nltk.download('omw-1.4')
-
-This enables text preprocessing functions like stopword removal and lemmatization.
-
-✅ Step 3: Launch the App
+✅ Step 2: Launch the App
 Run this command:
 
 
-streamlit run app.py
+streamlit run app.py (this may take some time to download necessary files)
 
 This opens the app in your default web browser.
 
 You can now:
 
-Paste individual comments or upload a CSV(sample comments file on folder /data --all category upto 65 each)
+Paste individual comments or upload a CSV  (sample comment file on folder /data --all category upto 65 each)
 
 View category predictions and auto-generated replies
 
-See a visual breakdown of comment categories
+See a visual breakdown of comment categories (to see it, upload the sample csv file )
 
