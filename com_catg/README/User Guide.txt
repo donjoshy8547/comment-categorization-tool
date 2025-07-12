@@ -1,4 +1,6 @@
- Step-by-Step User Guide
+Hosted URL: https://comment-categorization-tool-vdsxkqrdwpojcdsf59dvkn.streamlit.app/
+
+Step-by-Step User Guide for running local 
 
 🛠️ Requirements
 Before running the tool, ensure you have:
